@@ -1,7 +1,10 @@
 'use strict';
+import { packOne } from 'pack_one';
 
-module.exports = packTwo;
 
-function packTwo() {
+export function packTwo() {
   return 'Hello from packTwo';
 }
+
+const result = packOne();
+console.log(result)
