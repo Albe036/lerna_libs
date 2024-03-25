@@ -1,0 +1,26 @@
+{
+  "name": "pack_two",
+  "version": "0.0.0",
+  "description": "test pack two",
+  "author": "Albeiro Lozano <Albeiro036@gmail.com>",
+  "homepage": "https://github.com/Albe036/lerna_libs#readme",
+  "license": "ISC",
+  "main": "index",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Albe036/lerna_libs.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/pack_two.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Albe036/lerna_libs/issues"
+  }
+}
